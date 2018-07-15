@@ -1,0 +1,154 @@
+body {
+	margin: 0 !important;
+	background-color: #f9fafc;
+	font-size: 20px;
+	font-family: sans-serif;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+
+/*
+.small-container{
+	text-align: center;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #e4e4e4;
+}
+form{
+	align-items: center;
+}
+#inpart1{
+	
+	text-align: left;
+	width:50%;
+	
+	float:left;
+
+}
+#inpart2{
+	width:50%;
+	text-align: left;	
+	float:left;
+
+}
+*/
+#regi{
+	text-align: center;
+	margin-top: calc(20vh-200px);
+	color: #636363;
+	font-size: 27px;
+	padding: 50px;
+}
+button{
+	margin-left: calc(50vw-20px);
+}
+.form-group .form-control{
+	height: 40px;
+	border-radius: 2px;
+	border: 1px solid #e4e6f1;
+	color: #002257;
+	font-family: "Open Sans", sans-serif;
+	font-size: 13px;
+	margin-bottom: 10px;
+}
+label{
+	color: #97a3b4;
+	padding: 3px;
+	font-size: 13px;
+	font-family: "Open Sans", sans-serif;	
+	font-weight:400;
+}
+input[type=button]{
+	width: 190px;
+	height: 52px;
+	border-radius: 40px;
+	background-color: #ff3366;
+	color: #ffffff;
+	font-size:18px;
+	font-family: "MerriweatherSans-Regular", sans-serif;
+	font-weight: 400 !important;
+	outline-style: none;
+}
+input[type=checkbox]{
+	margin-top: 70px;
+	margin-bottom: 40px;
+	color: #97a3b4;
+	font-weight: 300;
+}
+img{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+a{
+	color: #ff3366;
+}
+button[type=submit]{
+	outline-style:none;
+}
+#has-acc{
+	color: #ff3366; 
+	font-size: 13px; 
+	text-align: center;
+	text-decoration: underline;
+	padding:20px;
+}
+#nav{
+	text-align:center;
+	color: #ff3366;
+	font-size: 18px;
+}
+
+#logo{
+	margin-left: 10vw;
+	/*
+	margin-top: calc(20vh-20px);
+	*/
+
+}
+.btn-default{
+	width: 256px;
+	height: 52px;
+	border-radius: 40px;
+	background-color: #ff3366;
+	font-size: 18px;
+	color: #ffffff;
+	outline-style: none !important;
+}
+@media(max-width:991px)
+{
+	body{
+		padding: 10px;
+	}
+}
+@media (max-width: 768px) {
+	body{
+	overflow: auto;
+	/*margin-left: 10px !important;*/
+	padding: 10px;
+}
+label{
+	width:200px;
+}
+#logo{
+	text-align: center;
+	margin-bottom: 10px;
+	/*margin-left: 30vw;*/
+}
+input[type=button]{
+	width:150px;
+}
+#regi{
+	padding:10px;
+}
+input[type=checkbox]{
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+ .homeslider .text-left{
+ 	
+   margin-top: 50px;
+ }
+
+}
