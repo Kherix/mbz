@@ -70,6 +70,7 @@ input[type=button]{
 	font-family: "MerriweatherSans-Regular", sans-serif;
 	font-weight: 400 !important;
 	outline-style: none;
+	border: none;
 }
 input[type=checkbox]{
 	margin-top: 70px;
@@ -86,6 +87,7 @@ a{
 }
 button[type=submit]{
 	outline-style:none;
+	border: none;
 }
 #has-acc{
 	color: #ff3366; 

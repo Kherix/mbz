@@ -1,0 +1,255 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8" >
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 
+	<title> MBZ Kalendarz </title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href ="style.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+
+	<nav class="navbar navbar-default">
+
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav" id="lewy-nav">
+        <li><a href="#">Powiadomienia</a></li>
+        <li class="active"><a href="#" style="color: #ff3366;">Kalendarz (Admin-Adam-2)<span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Pracownicy</a></li>
+        
+      </ul>
+     
+      <ul class="nav navbar-nav navbar-right" id="prawy-nav">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="shape.svg"> Adam-Admin-1 <span class="caret" style="color: #ff3366;"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          
+          </ul>
+        </li>
+       <li class="logout">
+          <a href="#"><img src="logout.svg"/></a>
+          </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+   </div><!-- /.container-fluid -->
+</nav>
+ 
+ <div class="container-fluid" id="dostepnosc-tygodnie">
+  <div class="row" style="text-align: center; padding: 20px;">
+    <div class="col-sm-2 col-sm-offset-1">
+      <a href="#" style="text-decoration: none;"><img src="thick-copy.png"/> <span id="link-dostepnosc">Skopiuj dostępność dla kolejnych tygodni</span></a>
+    </div>
+    <div class="col-sm-4 col-sm-offset-1">
+      <a href="#"><img src="thick-left.png" style="padding: 10px;"/></a> <span id="wybrany-tydzien"> 21 Czerwca - 26 Czerwca 2018 </span> <a href="#"><img src="thick-right.png" style="padding: 10px;"/></a>
+    </div>
+  </div>
+</div>
+
+<div class="container" id="wszystkie-dni">
+  <div class="row dzien">
+    <div class="col-2">
+      Poniedziałek 21 Czerwca
+    </div>
+  </div>
+
+    <div class="row godziny-dnia">
+    <div class="col-md-2 empty">
+      6:00-7:00 <img src="thick-ok.png"/>
+    </div>
+    <div class="col-md-2 full">
+      7:00-8:00 <img src="thick-eye-open.png"/>
+    </div>
+    <div class="col-md-2 full">
+      8:00-9:00 <img src="thick-eye-open.png"/>
+    </div>
+    <div class="col-md-2 gray">
+      9:00-10:00
+    </div>
+    <div class="col-md-2 empty">
+      10:00-11:00 <img src="thick-ok.png"/>
+    </div>
+    <div class="col-md-2 empty">
+      11:00-12:00 <img src="thick-ok.png"/>
+    </div>
+    <div class="col-md-2 empty">
+      12:00-13:00 <img src="thick-ok.png"/>
+    </div>
+    <div class="col-md-2 gray">
+      13:00-14:00
+    </div>
+    <div class="col-md-2 gray">
+      14:00-15:00
+    </div>
+    <div class="col-md-2 full">
+      15:00-16:00 <img src="thick-eye-open.png"/>
+    </div>
+    <div class="col-md-2 empty">
+      16:00-17:00 <img src="thick-ok.png"/>
+    </div>
+    <div class="col-md-2 empty">
+      17:00-18:00 <img src="thick-ok.png"/>
+    </div>
+</div>
+  <div class="row dzien">
+    <div class="col-2">
+      Wtorek 22 Czerwca
+    </div>
+  </div>
+
+  <div class="row godziny-dnia">
+    <div class="col-sm-2 empty">
+      6:00-7:00 <img src="thick-ok.png"/>
+    </div>
+    <div class="col-sm-2 full">
+      7:00-8:00 <img src="thick-eye-open.png"/>
+    </div>
+    <div class="col-sm-2 full">
+      8:00-9:00 <img src="thick-eye-open.png"/>
+    </div>
+    <div class="col-sm-2 gray">
+      9:00-10:00
+    </div>
+    <div class="col-sm-2 empty">
+      10:00-11:00 <img src="thick-ok.png"/>
+    </div>
+    <div class="col-sm-2 empty">
+      11:00-12:00 <img src="thick-ok.png"/>
+    </div>
+    <div class="col-sm-2 empty">
+      12:00-13:00 <img src="thick-ok.png"/>
+    </div>
+    <div class="col-sm-2 gray">
+      13:00-14:00
+    </div>
+    <div class="col-sm-2 gray">
+      14:00-15:00
+    </div>
+    <div class="col-sm-2 full">
+      15:00-16:00 <img src="thick-eye-open.png"/>
+    </div>
+    <div class="col-sm-2 empty">
+      16:00-17:00 <img src="thick-ok.png"/>
+    </div>
+    <div class="col-sm-2 empty">
+      17:00-18:00 <img src="thick-ok.png"/>
+    </div>
+</div>
+<div class="row dzien">
+    <div class="col-2">
+      Środa 23 Czerwca
+    </div>
+  </div>
+
+  <div class="row godziny-dnia">
+    <div class="col-sm-2 empty">
+      6:00-7:00 <img src="thick-ok.png"/>
+    </div>
+    <div class="col-sm-2 full">
+      7:00-8:00 <img src="thick-eye-open.png"/>
+    </div>
+    <div class="col-sm-2 full">
+      8:00-9:00 <img src="thick-eye-open.png"/>
+    </div>
+    <div class="col-sm-2 gray">
+      9:00-10:00
+    </div>
+    <div class="col-sm-2 empty">
+      10:00-11:00 <img src="thick-ok.png"/>
+    </div>
+    <div class="col-sm-2 empty">
+      11:00-12:00 <img src="thick-ok.png"/>
+    </div>
+    <div class="col-sm-2 empty">
+      12:00-13:00 <img src="thick-ok.png"/>
+    </div>
+    <div class="col-sm-2 gray">
+      13:00-14:00
+    </div>
+    <div class="col-sm-2 gray">
+      14:00-15:00
+    </div>
+    <div class="col-sm-2 full">
+      15:00-16:00 <img src="thick-eye-open.png"/>
+    </div>
+    <div class="col-sm-2 empty">
+      16:00-17:00 <img src="thick-ok.png"/>
+    </div>
+    <div class="col-sm-2 empty">
+      17:00-18:00 <img src="thick-ok.png"/>
+    </div>
+</div>
+<div class="row dzien">
+    <div class="col-2">
+      Czwartek 24 Czerwca
+    </div>
+  </div>
+
+  <div class="row godziny-dnia">
+    <div class="col-sm-2 empty">
+      6:00-7:00 <img src="thick-ok.png"/>
+    </div>
+    <div class="col-sm-2 full">
+      7:00-8:00 <img src="thick-eye-open.png"/>
+    </div>
+    <div class="col-sm-2 full">
+      8:00-9:00 <img src="thick-eye-open.png"/>
+    </div>
+    <div class="col-sm-2 gray">
+      9:00-10:00
+    </div>
+    <div class="col-sm-2 empty">
+      10:00-11:00 <img src="thick-ok.png"/>
+    </div>
+    <div class="col-sm-2 empty">
+      11:00-12:00 <img src="thick-ok.png"/>
+    </div>
+    <div class="col-sm-2 empty">
+      12:00-13:00 <img src="thick-ok.png"/>
+    </div>
+    <div class="col-sm-2 gray">
+      13:00-14:00
+    </div>
+    <div class="col-sm-2 gray">
+      14:00-15:00
+    </div>
+    <div class="col-sm-2 full">
+      15:00-16:00 <img src="thick-eye-open.png"/>
+    </div>
+    <div class="col-sm-2 empty">
+      16:00-17:00 <img src="thick-ok.png"/>
+    </div>
+    <div class="col-sm-2 empty">
+      17:00-18:00 <img src="thick-ok.png"/>
+    </div>
+</div>
+</div>
+
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</body>
+</html>
