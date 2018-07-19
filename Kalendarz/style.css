@@ -226,3 +226,13 @@ p{
 	font-family: "OpenSans", sans-serif;
 	font-size: 14px;
 }
+@media(max-width: 1400px){
+	#link-dostepnosc{
+		margin-top:3px;
+		padding: 4px;
+		font-size: 12px;
+	}
+	#wybrany-tydzien{
+		font-size:13px;
+	}
+}
