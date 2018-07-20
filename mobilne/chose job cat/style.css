@@ -1,0 +1,261 @@
+body{
+  background-color: #f9fafc;
+}
+
+
+
+.title-roow{
+  text-align: center;
+  height: 66px !important;
+  font-family: "MerriweatherSans-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #1e1e1e;
+}
+.btn-default{
+  width:80vw;
+  height: 55px;
+  border-radius: 40px;
+  background-color: #ff3366;
+  font-family: "MerriweatherSans-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #ffffff;
+  outline: none;
+  border:none;
+}
+@media(max-width: 450px){
+  .btn-default{
+    font-size: 16px;
+  }
+}
+.btn-default:focus{
+  outline: none;
+}
+.btn-group, .longbtn{
+ 
+  width: 100% !important;
+}
+
+.longbtn{
+  border: 1px solid #9e9e9e;
+  background-color: #ffffff;
+  text-align: left;
+}
+#price-container{
+  background-color: #ffffff;
+  text-align: center;
+  width: 90%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+#price-title{
+  margin-top: 15px;
+  margin-bottom: 20px;
+  color: #585858;
+  font-family: "HelveticaNeue", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+#current-price{
+  font-size: 60px;
+  color: #23cf5f;
+  margin-bottom: 5px;
+  font-family: "HelveticaNeue", sans-serif;
+}
+#old-price{
+  color: #9b9b9b;
+  opacity: 0.6;
+  font-family: "HelveticaNeue", sans-serif;
+ 
+  font-size:28px;
+  margin-bottom: 20px;
+}
+
+.payingpros{
+  color: #4a4a4a;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.ticpic{
+  width:40px;
+}
+@media(max-width: 450px)
+{
+  .ticpic{
+    width:20px;
+    margin-left: 20px;
+  }
+
+}
+
+.FAQ{
+  padding-top: 5px;
+  padding-left: 0;
+  padding-bottom: 5px;
+  margin-left: 0px;
+  margin-right: 10px;
+  border-top: 1px solid #ccd3da;
+  border-bottom: 1px solid #ccd3da;
+  color: #4a4a4a;
+  font-family: "HelveticaNeue", sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.faq-paragraph-title{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 33px;
+  color:#1e1e1e;
+  font-family: "HelveticaNeue-Bold", sans-serif;
+  font-weight: 700
+}
+.faq-paragraph{
+  color:#4a4a4a;
+  font-family: "HelveticaNeue",sans-serif;
+  font-size: 18px;
+  text-align: center;
+
+
+
+}
+#separator{
+  text-align: center;
+  height: 10px;
+  margin-left: auto;
+  margin-right: auto;
+    border-bottom: 1px solid #ccd3da;
+  border-spacing: 5px;
+  width:100%;
+}
+
+/********************************/
+
+.main-cat{
+  background-color: #3ac171 !important;
+  color: #ffffff;
+  height: 35px;
+  padding: 5px;
+  padding-top: 7px;
+}
+.leftside-cat{
+  font-family: "HelveticaNeue", sans-serif;
+  opacity: 0.8;
+}
+.rightside-cat{
+  text-align: right;
+  font-family: "HelveticaNeue-Medium",sans-serif;
+  font-weight: 500;
+}
+.left-cat{
+  color: #000000;
+  font-family: "HelveticaNeue-Medium", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.right-check{
+  text-align: right;
+
+}
+.info-circle{
+  color: #ff3366;
+  font-size: 11px;
+  font-family: "OpenSans", sans-serif;
+  height: 25px;
+  width: 25px;
+  text-transform: lowercase;
+  border: 1px solid #ff3366;
+  background-color: #ffffff;
+  border-radius: 50px;
+  position: absolute;
+  top: 4px;
+  left: 80px;
+}
+.xdea{
+  position: absolute;
+  font-size: 22px;
+  bottom: -4px;
+  right: 9px;
+}
+.one-of-cats{
+  margin-top: 15px;
+}
+label{
+  color: #000000;
+  font-family: "HelveticaNeue-Medium", sans-serif;
+  font-size: 22px;
+  font-weight: 500 !important;
+  text-transform: uppercase;
+
+}
+.labellki:after{
+  content: ' ';
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+  display: inline-block;
+  position: relative;
+  left: 15px;
+  top: 5px;
+  background-image: url("I.png") !important;
+}
+input:checked ~ input[type=checkbox]{
+  background-color: #ff3366;
+}
+.pojemnikk {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.pojemnikk input{
+  position:absolute;
+  opacity:0;
+  cursor: pointer;
+}
+.pojemnikk:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 7px;
+    right: 12px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    border: 1px solid #979797;
+    background-color: #eaeaea;
+}
+.pojemnikk input:checked ~ .checkmark {
+    background-color: #ff3366;
+}
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.pojemnikk input:checked ~ .checkmark:after{
+  display:block;
+}
+.pojemnikk .checkmark:after{
+  left: 7px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
