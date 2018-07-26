@@ -123,6 +123,7 @@ body{
 	}
 
 }
+
 @media(max-width: 450px){
   .btn-default{
     font-size: 16px;
