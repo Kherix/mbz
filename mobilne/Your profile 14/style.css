@@ -1,0 +1,162 @@
+body{
+  background-color: #f9fafc;
+}
+
+
+
+.title-roow{
+  text-align: center;
+  height: 66px !important;
+  font-family: "MerriweatherSans-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #1e1e1e;
+}
+.btn-default{
+  width:80vw;
+  height: 88px;
+  border-radius: 40px;
+  background-color: #ff3366;
+  font-family: "MerriweatherSans-Regular", sans-serif;
+  font-size: 27px;
+  font-weight: 400;
+  color: #ffffff;
+  outline: none;
+  border:none;
+}
+.btn-default:focus{
+  outline: none;
+}
+#tetxt{
+  font-size: 20px;
+  position: absolute;
+  left:50px;
+  text-align: left;
+
+}
+.grayg{
+  color: #9b9b9b;
+  font-family: "HelveticaNeue", sans-serif;
+
+}
+#change-photo{
+  position: relative;
+  top:30px;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-family: "HelveticaNeue-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  margin-left: 0;
+  margin-right: 0;
+}
+@media(max-width: 530px)
+{
+  #change-photo{
+       font-size: 18px;
+  }
+  #change-pen{
+  width:25px;
+
+}
+  #avatar{
+    width:90%;
+  }
+}
+@media(max-width: 400px)
+{
+  #change-photo{
+    font-size: 14px;
+  }
+  #change-pen{
+    width: 20px;
+  }
+  #avatar{
+    width:80%;
+  }
+}
+label{
+  color: #9e9e9e;
+  font-family: "MerriweatherSans-Regular", sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.btn-group, .longbtn{
+ 
+  width: 100% !important;
+}
+
+.longbtn{
+  border: 1px solid #9e9e9e;
+  background-color: #ffffff;
+  text-align: left;
+}
+.caret{
+  position:absolute;
+  top:15px;
+  right: 8px;
+   text-align: right;
+}
+@media(max-width: 420px)
+{
+  #avatar{
+    width:100%;  
+  }
+}
+.zawod{
+  display: inline-block;
+  margin:5px;
+  color: #ffffff;
+  border-radius: 28px;
+  padding: 8px;
+}
+.pom-mechanika{
+  background-color: #7ed321;
+}
+.zbieracz-kwiatow{
+  background-color: #f5a623;
+}
+.murarz{
+  background-color: #50e3c2;
+}
+.pom-piekarza{
+  background-color: #23cf5f;
+}
+input[type=text]{
+  border-color: #ff3366;
+  border-radius: 28px;
+  border-right: none;
+}
+#basic-addon2{
+  
+  border-color: #ff3366;
+  border-top-right-radius: 28px;
+  border-bottom-right-radius: 28px;
+  border-left:none;
+  background-color: #ffffff;
+  border-left: none;
+}
+@media(max-width: 450px){
+  #arrdwn{
+    width:80%;
+    height:auto;
+  }
+}
+#avpen{
+  border-radius: 20px;
+  position: absolute;
+  top:10px;
+  right:10px;
+}
+#editpen{
+  height:50%;
+  width:auto;
+}
+.input-group{
+
+  margin: 30px;
+ max-width: 40vw;
+}
