@@ -41,6 +41,24 @@ body{
  border-bottom: 1px solid #ccd3da;
 
 }
+.przycisk-o{
+  
+ 
+  background-color: #ffffff;
+  height: 80px;
+  padding: 19px;
+  font-size: 18px;
+ 
+}
+.przycisk-o:after{
+  content: "";
+  display: block;
+  margin:0 auto;
+  padding:10px;
+  margin-bottom: 40px;
+
+
+}
 
 .country-ic{
   width:30px;

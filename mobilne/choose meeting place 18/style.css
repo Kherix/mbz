@@ -1,0 +1,148 @@
+body{
+  background-color: #f9fafc;
+
+}
+
+
+
+.title-roow{
+  text-align: center;
+  height: 66px !important;
+  font-family: "MerriweatherSans-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #1e1e1e;
+}
+.przycisk1{
+  
+  font-family: "MerriweatherSans-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  height: 80px;
+  padding: 19px;
+  margin-bottom: 20px;
+
+}
+.przedlxd{
+  display: inline-block;
+  overflow: visible;
+  white-space: nowrap;
+  height: 50px;
+}
+#date-row{
+
+  background-color: #4a4a4a;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  white-space: nowrap;
+  overflow: visible;
+  font-family: "MerriweatherSans-Regular", sans-serif;
+}
+#phat{
+  font-weight:700;
+   font-size: 15px;
+}
+.arro{
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.meet-hours{
+  border: 1px solid #979797;
+  border-radius: 34px;
+  color: #4a4a4a;
+  font-size: 18px;
+  text-align: center;
+  padding-top:7px;
+  padding-bottom: 6px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: inline-block;
+  margin: 7px;
+  margin-left: 15px;
+  overflow: visible;
+}
+.day-time{
+  color: #585858;
+  font-family: "HelvericaNeue-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 20px;
+  margin-left: 5px
+}
+#strz-odwr{
+      transform: rotate(180deg);
+}
+.przycisk{
+  background-color: #ffffff;
+  height: 80px;
+  padding: 19px;
+  font-size: 18px;
+ 
+}
+.przycisk:after{
+  content: "";
+  display: block;
+  margin:0 auto;
+  padding:10px;
+  margin-bottom: 15px;
+  width: 95%;
+ border-bottom: 1px solid #ccd3da;
+
+}
+.przycisk-o{
+  
+ 
+  background-color: #ffffff;
+  height: 80px;
+  padding: 19px;
+  font-size: 18px;
+ 
+}
+.przycisk-o:after{
+  content: "";
+  display: block;
+  margin:0 auto;
+  padding:10px;
+  margin-bottom: 40px;
+
+
+}
+#napisy{
+  display: inline-block;
+  position: relative;
+  left: 76px;
+
+}
+.country-ic{
+  position: absolute;
+  width:70px;
+  height: 70px;
+  border-radius: 20px;
+}
+.przyc-link{
+  color: #585858;
+  font-family: "MerriweatherSans-Regular",sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.arrow-rightt{
+  position: absolute;
+  right: 18px;
+  top:30px;
+  width: 20px;
+}
+@media(max-width: 370px)
+{
+  .przycisk{
+    padding-top: 20px;
+    height: 70px;
+  }
+  .przyc-link{
+    font-size: 18px;
+
+  }
+
+}
